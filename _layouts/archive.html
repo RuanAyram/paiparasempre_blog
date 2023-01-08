@@ -1,0 +1,21 @@
+---
+layout: default
+title: Archive
+---
+
+<!-- Begin List Posts
+================================================== -->
+
+{{ page | inspect }}
+
+<h1>Arquivo de posts com <span>{{ page.type }} '{{ page.title | default: page.date | date: "%Y" }}'</span></h1>
+
+<div class="blog-grid-container">
+
+{% for post in page.posts %}
+
+{% include postbox.html %}
+
+{% endfor %}
+
+</div>
