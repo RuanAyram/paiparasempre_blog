@@ -16,8 +16,7 @@
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.adsense-data-ad-client}}"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.adsense-data-ad-client}}" crossorigin="anonymous"></script>
 
     {% if jekyll.environment == 'production' %}
       <!-- change your GA id in _config.yml -->
@@ -87,6 +86,11 @@
     ================================================== -->
         <div class="main-content">
           {{ content }}
+
+          <!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+          {% if site.adsense == "enabled" %}
+            {% include adsense.html %}
+          {% endif %}
         </div>
 
         {% if site.mailchimp-list %}

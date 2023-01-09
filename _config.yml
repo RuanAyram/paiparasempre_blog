@@ -12,7 +12,7 @@ permalink: /:title/
 disqus: 'pai-para-sempre'
 email: contato.paiparasempre@gmail.com
 formspree_id: xqkokgjk
-recaptcha_key: 6LeR4-AjAAAAADQtw2fO3dNf7yX7YDsnO3WNd_Hv
+recaptcha_key: 6LeR4-AjAAAAAF6WP_74JRCqoN0JK_wpDwjTJ_3S
 
 # Metatags defaults
 defaults:
@@ -76,7 +76,7 @@ kramdown:
 adsense: "enabled"
 adsense-data-ad-client: "ca-pub-8011521581149732"
 adsense-data-ad-slot-home: "4106562129"
-adsense-data-ad-slot: ""
+adsense-data-ad-slot: "7280671752"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
