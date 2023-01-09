@@ -25,5 +25,3 @@ collections:
       - {label: "Tags", name: "tags", widget: "string", required: false, hint: "Separados por espaço"}
       - {label: "Imagem", name: "img", widget: "string", required: false, hint: "Imagem que ficará no topo do post"}
       - {label: "Imagem Shadow", name: "imageshadow", widget: "boolean", required: false, default: true}
-    meta: # Meta data fields. Just like fields, but without any preview element
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
