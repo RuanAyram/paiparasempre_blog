@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="{{ site.baseurl }}/assets/images/logo_pai.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/logo_pai_2.png">
 
     <title>{{ page.title }} | {{site.name}}</title>
 
@@ -14,20 +14,24 @@
     <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.adsense-data-ad-client}}"
+     crossorigin="anonymous"></script>
+
+    {% if jekyll.environment == 'production' %}
+      <!-- change your GA id in _config.yml -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{site.google_analytics}}');
+      </script>
+    {% endif %}
 
   </head>
-
-  {% if jekyll.environment == 'production' %}
-    <!-- change your GA id in _config.yml -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', '{{site.google_analytics}}');
-    </script>
-  {% endif %}
 
   {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
   <body>

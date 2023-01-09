@@ -3,10 +3,9 @@ title: O pensamento de um pai sobre apoiar sua esposa e filho no pós-parto do h
 layout: post
 author: rk
 categories:
-- NFT
-tags:
-- Games
-- NFT
+- Paternidade
+- Pós-parto
+tags: []
 image: assets/images/5.jpg
 imageshadow: true
 ---

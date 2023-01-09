@@ -4,13 +4,30 @@ title: "Pai para sempre"
 description: "Ser pai não é uma tarefa fácil, mas vale a pena fazê-lo com todo o seu coração e alma."
 logo: 'assets/images/logo_pai_2.png'
 favicon: 'assets/images/logo_pai_2.png'
-baseurl: ""
-google_analytics: 'UA-xxxxxxxx-1'
-disqus: 'demowebsite'
+baseurl: "https://paiparasempre.com.br"
+google_analytics: 'G-4C84BBGERG'
 mailchimp-list:
 include: ["_pages"]
 permalink: /:title/
+disqus: 'pai-para-sempre'
 email: contato.paiparasempre@gmail.com
+formspree_id: xqkokgjk
+recaptcha_key: 6LeR4-AjAAAAADQtw2fO3dNf7yX7YDsnO3WNd_Hv
+
+# Metatags defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+      author: "rk"
+      image: ""
+      categories: ""
+      tags: ""
+      imageshadow: true
+      comments: true
 
 # Authors
 authors:
@@ -56,9 +73,10 @@ kramdown:
 
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+adsense: "enabled"
+adsense-data-ad-client: "ca-pub-8011521581149732"
+adsense-data-ad-slot-home: "4106562129"
+adsense-data-ad-slot: ""
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
