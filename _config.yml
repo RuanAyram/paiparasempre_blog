@@ -4,7 +4,8 @@ title: "Pai para sempre"
 description: "Ser pai não é uma tarefa fácil, mas vale a pena fazê-lo com todo o seu coração e alma."
 logo: 'assets/images/logo_pai_2.png'
 favicon: 'assets/images/logo_pai_2.png'
-baseurl: "https://paiparasempre.com.br"
+baseurl: ""
+url: "https://paiparasempre.com.br"
 google_analytics: 'G-4C84BBGERG'
 mailchimp-list:
 include: ["_pages"]
