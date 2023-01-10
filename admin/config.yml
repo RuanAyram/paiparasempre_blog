@@ -23,5 +23,5 @@ collections:
       - {label: "Conteúdo", name: "body", widget: "markdown"}
       - {label: "Categorias", name: "categories", widget: "string", required: true, hint: "Separados por espaço"}
       - {label: "Tags", name: "tags", widget: "string", required: false, hint: "Separados por espaço"}
-      - {label: "Imagem", name: "image", widget: "string", required: false, hint: "Imagem que ficará no topo do post\nhttps://images.pexels.com/photos/idPhoto/pexels-photo-idPhoto.jpeg"}
+      - {label: "Imagem", name: "image", widget: "string", required: false, hint: "https://images.pexels.com/photos/idPhoto/pexels-photo-idPhoto.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"}
       - {label: "Imagem Shadow", name: "imageshadow", widget: "boolean", required: false, default: true}
