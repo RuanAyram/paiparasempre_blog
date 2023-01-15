@@ -8,7 +8,7 @@ categories:
   - Paternidade
   - Vida
   - Trabalho
-image: /assets/images/image7.webp
+image: '/assets/images/image7.webp'
 imageshadow: true
 ---
 Equilibrar trabalho e vida familiar como pai é como tentar equilibrar uma bola de gude em um cano de PVC: é difícil, mas não impossível. Com algumas táticas engraçadas e criativas, você pode ter sucesso tanto no trabalho quanto em casa.
