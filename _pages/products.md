@@ -11,22 +11,8 @@ comments: false
 </div>
 
 <div class="card-deck text-center">
-  {% for produto in site.data.lista_produtos %}
-    <div class="card border-primary" style="width: 18rem;">
-      <a href="{{ produto.link }}" class="btn btn-primary">
-        <img src="{{ site.baseurl }}/assets/images/logo_pai.png" class="card-img-top" alt="...">
-      </a>
-      <div class="card-body">
-        <h5 class="card-title">{{ produto.nome }}</h5>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">{{ produto.plataforma }}</li>
-          <li class="list-group-item">R$ {{ produto.preco }}</li>
-        </ul>
-      </div>
-      <div class="card-footer text-muted">
-        <a href="{{ produto.link }}" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
+  {% for produto in site.produtos %}
+    {% include product.html %}
   {% endfor %}
 </div>
 

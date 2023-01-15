@@ -5,6 +5,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 display_url: https://paiparasempre.com.br
+logo_url: https://paiparasempre.com.br/assets/images/logo_pai_2.png
 
 media_folder: 'assets/images'
 
@@ -18,10 +19,25 @@ collections:
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Comentários", name: "comments", widget: "hidden", default: true}
+      - {label: "Autor", name: "author", widget: "hidden", default: "rk"}
       - {label: "Título", name: "title", widget: "string", tagname: "h1"}
       - {label: "Data de Publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
       - {label: "Conteúdo", name: "body", widget: "markdown"}
-      - {label: "Categorias", name: "categories", widget: "string", required: true, hint: "Separados por espaço"}
+      - {label: "Categorias", name: "categories", widget: "list", required: true}
       - {label: "Tags", name: "tags", widget: "string", required: false, hint: "Separados por espaço"}
       - {label: "Imagem", name: "image", widget: "string", required: false, hint: "https://images.pexels.com/photos/idPhoto/pexels-photo-idPhoto.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"}
+      - {label: "Imagem Shadow", name: "imageshadow", widget: "boolean", required: false, default: true}
+  - name: 'produtos'
+    label: 'Produtos'
+    folder: '_produtos/'
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}'
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Comentários", name: "comments", widget: "hidden", default: false}
+      - {label: "Título", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Conteúdo", name: "body", widget: "markdown"}
+      - {label: "Link", name: "link", widget: "string", tagname: "h1"}
+      - {label: "Preço", name: "preco", widget: "string", tagname: "h1"}
+      - {label: "Imagem", name: "image", widget: "image", required: false"}
       - {label: "Imagem Shadow", name: "imageshadow", widget: "boolean", required: false, default: true}

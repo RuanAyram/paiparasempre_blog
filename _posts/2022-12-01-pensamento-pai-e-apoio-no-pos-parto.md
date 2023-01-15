@@ -7,8 +7,7 @@ date: 2022-12-01 10:00am
 categories:
   - Paternidade
   - Pós-parto
-tags: []
-image: https://images.pexels.com/photos/3536630/pexels-photo-3536630.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+image: 'assets/images/image1.webp'
 imageshadow: true
 ---
 

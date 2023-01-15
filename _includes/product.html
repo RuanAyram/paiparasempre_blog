@@ -1,0 +1,24 @@
+<div class="card border-primary" style="width: 18rem;">
+  <a href="{{ produto.url }}" class="btn btn-primary">
+    <img src="{{ site.baseurl }}/assets/images/logo_pai_2.png" class="card-img-top" alt="...">
+  </a>
+  <div class="card-body">
+    <h5 class="card-title">{{ produto.nome }}</h5>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{ produto.plataforma }}</li>
+      {% if produto.preco %}
+        <li class="list-group-item">{{ produto.preco | prepend: 'R$ ' }}</li>
+      {% else %}
+        <li class="list-group-item" />
+      {% endif %}
+    </ul>
+  </div>
+  <div class="card-footer text-muted">
+    <a href="{{ produto.link }}" class="btn btn-primary" target="_blank">
+      Ver na loja
+      <i class="fas fa-external-link-alt"></i>
+    </a>
+  </div>
+</div>
+
+

@@ -247,7 +247,7 @@ img, img:hover {
         margin-right: 7px;
     }
     .card {
-        border:0;
+        // border:0;
         &:hover {           
            .card-title a { 
                 background-size: 100% 100%;
@@ -431,6 +431,7 @@ img, img:hover {
 .authorbox {
     margin-top:50px;
     margin-bottom:50px;
+    border: 1px solid rgba(17,17,17,0.125);
     .author-description {
         font-size:16px;
     }

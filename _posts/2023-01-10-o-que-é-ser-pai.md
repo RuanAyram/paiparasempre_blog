@@ -1,12 +1,19 @@
 ---
 layout: post
+author: rk
 comments: true
 title: O que é ser pai?
 date: 2023-01-01 10:00am
-categories: Paternidade pai jornada filhos amor
-image: https://images.pexels.com/photos/1682497/pexels-photo-1682497.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+categories:
+  - Paternidade
+  - pai
+  - jornada
+  - filhos
+  - amor
+image: 'assets/images/image2.webp'
 imageshadow: true
 ---
+
 Não há uma resposta para a questão do que significa ser pai. Cada pai é diferente e traz a sua própria perspectiva e experiências únicas à paternidade.
 
 Pode ser emocionante e cansativo, mas também é incrivelmente gratificante. Desde a primeira vez que você segura seu bebê recém-nascido nos braços até vê-lo crescer até a idade adulta, ser pai é uma experiência como nenhuma outra.

@@ -15,6 +15,10 @@ email: contato.paiparasempre@gmail.com
 formspree_id: xqkokgjk
 recaptcha_key: 6LeR4-AjAAAAAF6WP_74JRCqoN0JK_wpDwjTJ_3S
 
+collections:
+  produtos:
+    output: true
+
 # Metatags defaults
 defaults:
   -
@@ -29,6 +33,17 @@ defaults:
       tags: ""
       imageshadow: true
       comments: true
+  -
+    scope:
+      path: ""
+      type: "produtos"
+    values:
+      layout: "page"
+      link: ""
+      plataforma: ""
+      preco: ""
+      image: ""
+      comments: false
 
 # Authors
 authors:
