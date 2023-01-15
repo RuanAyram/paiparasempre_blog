@@ -24,8 +24,8 @@ collections:
       - {label: "Data de Publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
       - {label: "Conteúdo", name: "body", widget: "markdown"}
       - {label: "Categorias", name: "categories", widget: "list", required: true}
-      - {label: "Tags", name: "tags", widget: "string", required: false, hint: "Separados por espaço"}
-      - {label: "Imagem", name: "image", widget: "image", required: false, comment: "https://images.pexels.com/photos/idPhoto/pexels-photo-idPhoto.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"}
+      - {label: "Tags", name: "tags", widget: "string", required: false, hint: "Separados por virgula", comment: "https://images.pexels.com/photos/idPhoto/pexels-photo-idPhoto.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"}
+      - {label: "Imagem", name: "image", widget: "image", required: false}
       - {label: "Imagem Shadow", name: "imageshadow", widget: "boolean", required: false, default: true}
   - name: 'produtos'
     label: 'Produtos'
