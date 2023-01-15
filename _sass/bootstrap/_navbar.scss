@@ -50,13 +50,15 @@
 // Used for brand, project, or site names.
 
 .navbar-brand {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
   margin-right: $navbar-padding-x;
   @include font-size($navbar-brand-font-size);
   line-height: inherit;
   white-space: nowrap;
+  width: 100%;
 
   @include hover-focus() {
     text-decoration: none;
