@@ -39,5 +39,5 @@ collections:
       - {label: "Conteúdo", name: "body", widget: "markdown"}
       - {label: "Link", name: "link", widget: "string", tagname: "h1"}
       - {label: "Preço", name: "preco", widget: "string", tagname: "h1"}
-      - {label: "Imagem", name: "image", widget: "image", required: false"}
+      - {label: "Imagem", name: "image", widget: "image", required: false}
       - {label: "Imagem Shadow", name: "imageshadow", widget: "boolean", required: false, default: true}
