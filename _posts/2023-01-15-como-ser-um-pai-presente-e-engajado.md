@@ -7,7 +7,7 @@ date: 2023-01-15 10:00am
 categories:
   - Paternidade
   - Pai presente
-image: /assets/images/image5.webp
+image: '/assets/images/image5.webp'
 imageshadow: true
 ---
 Ser um pai presente e engajado é fundamental para o desenvolvimento saudável dos filhos. Isso significa estar disponível e envolvido na vida dos filhos, desde ajudar com tarefas domésticas e lições de casa até participar de atividades extracurriculares e eventos familiares.
