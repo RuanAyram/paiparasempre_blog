@@ -9,7 +9,7 @@ categories:
   - Paternidade
   - Lazer
   - Atividades
-image: /assets/images/image8.webp
+image: 'assets/images/image8.webp'
 imageshadow: true
 ---
 Como pais, é fundamental investir tempo e energia em nossos filhos para garantir o seu desenvolvimento saudável e bem-estar. E uma das melhores maneiras de fazer isso é através de atividades de lazer e esportes.
