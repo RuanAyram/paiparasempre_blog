@@ -6,7 +6,7 @@ title: A importância da paternidade na Bíblia
 date: 2023-01-16 10:28am
 categories:
   - Paternidade
-image: /assets/images/image9.webp
+image: assets/images/image9.webp
 imageshadow: true
 ---
 A paternidade é um tema central na Bíblia e é altamente valorizada e respeitada pela fé. Na Bíblia, a paternidade é vista como uma responsabilidade sagrada, outorgada aos homens por Deus.
