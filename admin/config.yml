@@ -6,6 +6,7 @@ sitemap: false
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+  site_domain: https://paiparasempre.com.br
 
 display_url: https://paiparasempre.com.br
 logo_url: https://paiparasempre.com.br/assets/images/logo_pai_2.png

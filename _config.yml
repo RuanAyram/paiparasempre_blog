@@ -79,6 +79,9 @@ jekyll-archives:
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
+
+feed:
+  posts_limit: 1000
     
 # Other
 highlighter: none
