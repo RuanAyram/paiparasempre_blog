@@ -1,10 +1,11 @@
 ---
-title: 'Ton: a maquininha de cartão para o pequeno empreendedor'
 layout: page
-link: https://ton.com.br
-plataforma: Ton
-preco:
 comments: false
+title: "Ton: a maquininha de cartão para o pequeno empreendedor"
+link: https://ton.com.br/checkout/#/cart?productId=GIGATON_D195&referrer=AAB93D01-104B-48DF-BE5F-AB23838C800E&userTag=gigaton&utm_medium=invite_share&utm_source=revendendor
+plataforma: Ton
+preco: "0"
+image: /assets/images/whatsapp-image-2023-01-14-at-17.02.59.jpeg
 ---
 
 Ton é uma maquininha de cartão de crédito e débito projetada especificamente para pequenos empreendedores. Ele é fácil de usar e se conecta facilmente ao seu smartphone ou tablet via Bluetooth. Com o Ton, os usuários podem aceitar pagamentos em qualquer lugar e a qualquer hora, o que é ideal para negócios como food trucks, vendedores ambulantes e lojas pop-up.
