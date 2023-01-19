@@ -7,7 +7,7 @@ title: "Aprendendo com a lição de casa: Como tornar a tarefa mais eficaz e pra
 categories:
 - Paternidade
 - Filhos
-image: assets/images/image11.webp
+image: assets/images/image6.webp
 imageshadow: true
 ---
 
