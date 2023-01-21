@@ -2,6 +2,7 @@
 layout: page
 title: Authores
 permalink: /autores
+redirect: /authors
 comments: false
 ---
 <div class="list-authors mt-5">
@@ -34,7 +35,7 @@ comments: false
             </div>
             <div class="col-md-9">
                 <h3>
-                    <a href="{{ page.permalink }}/{{ author[1].display_name | downcase }}">
+                    <a href="{{ page.redirect }}/{{ author[1].display_name | downcase }}">
                     {{ author[1].display_name }}
                     </a>
                 </h3>

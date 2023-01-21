@@ -10,6 +10,7 @@ categories:
 - Oração
 image: assets/images/image11.webp
 imageshadow: true
+toc: true
 ---
 
 A oração é uma prática fundamental para a vida espiritual das pessoas e é especialmente importante para a relação entre pais e filhos. A oração junta os membros da família e os ajuda a se conectarem com Deus e uns com os outros. Além disso, a oração entre pais e filhos ajuda a fortalecer a relação entre eles e a desenvolver uma comunicação saudável.

@@ -9,6 +9,7 @@ categories:
 - Filhos
 image: assets/images/image6.webp
 imageshadow: true
+toc: true
 ---
 
 A lição de casa é uma parte importante do processo de ensino e aprendizagem, mas muitas vezes é vista como um fardo pelos estudantes. No entanto, a lição de casa não precisa ser um pesadelo. Existem maneiras de tornar essa experiência positiva para os estudantes e ajudá-los a aproveitar ao máximo seu tempo de estudo.

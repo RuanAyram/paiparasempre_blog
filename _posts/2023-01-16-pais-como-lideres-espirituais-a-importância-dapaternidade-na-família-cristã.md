@@ -10,6 +10,7 @@ categories:
   - Família
 image: assets/images/image10.webp
 imageshadow: true
+toc: true
 ---
 A paternidade é uma responsabilidade fundamental na família cristã. Segundo a Bíblia, os pais são chamados a liderar suas famílias espiritualmente e a guiá-las nos caminhos de Deus. Esta responsabilidade é tão importante que, em muitos casos, a salvação da família depende da fé e liderança do pai.
 
