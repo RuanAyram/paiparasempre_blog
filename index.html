@@ -18,3 +18,9 @@ title: Home
     {% include pagination.html %}
   </span>
 </div>
+
+<script>
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf('en') == 0)
+        window.location = '/en/';
+</script>
