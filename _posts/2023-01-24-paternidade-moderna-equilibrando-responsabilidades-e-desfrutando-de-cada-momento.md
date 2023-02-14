@@ -20,6 +20,7 @@ Uma das maneiras de equilibrar as responsabilidades é estabelecer prioridades. 
 Outra maneira de equilibrar as responsabilidades é ser flexível. A vida é imprevisível e as coisas mudam. É importante estar disposto a ser flexível e se adaptar às mudanças, em vez de se sentir preso a um plano rígido. Isso pode incluir ser flexível no trabalho, se necessário, para poder passar mais tempo com a família, ou ser flexível com as atividades da escola para que possa participar de eventos importantes.
 
 Além de equilibrar as responsabilidades, é importante aproveitar cada momento com seus filhos. Isso pode incluir fazer atividades divertidas juntos, como jogar jogos, assistir filmes ou simplesmente conversar. Também é importante se conectar em um nível emocional com seus filhos, ouvindo e apoiando-os. Quando você aproveita cada momento com seus filhos, você cria memórias duradouras e fortalece seus laços familiares.
+
 ### Estabelecendo rotinas para otimizar o tempo
 
 Uma das principais dificuldades para os pais modernos é encontrar tempo suficiente para dedicar à família. Com as exigências cada vez maiores do trabalho e da vida familiar, é fácil se sentir sobrecarregado e sem tempo para se dedicar à paternidade. No entanto, estabelecer rotinas eficazes pode ajudar a otimizar o tempo e garantir que você esteja dedicando tempo suficiente à sua família.

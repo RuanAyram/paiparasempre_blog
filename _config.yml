@@ -75,6 +75,22 @@ jekyll-archives:
   permalinks:
     year: '/ano/:year/'
     category: '/categoria/:name/'
+
+# Compose
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      layout: "post"
+      author: "rk"
+      comments: true
+      image:
+      categories:
+      imageshadow: true
     
 # Pagination 
 paginate: 6
