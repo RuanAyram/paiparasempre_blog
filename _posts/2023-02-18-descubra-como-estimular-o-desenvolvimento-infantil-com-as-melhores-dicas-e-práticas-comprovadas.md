@@ -10,6 +10,7 @@ categories:
   - Filhos
 image: assets/images/image16.webp
 imageshadow: true
+toc: true
 ---
 
 No mundo acelerado em que vivemos hoje em dia, a maioria dos pais querem garantir que seus filhos estejam alcançando todo o seu potencial de desenvolvimento. Mas, o que é o desenvolvimento infantil? E como podemos estimulá-lo?
