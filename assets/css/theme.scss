@@ -334,6 +334,13 @@ img, img:hover {
     }
 }
 
+ol {
+    li {
+        a { text-decoration: underline; }
+    }
+
+}
+
 //pagination
 .pagination {
     justify-content:center;

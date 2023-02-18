@@ -16,7 +16,7 @@ comments: false
 </div>
 </div>
 <textarea rows="8" class="form-control mb-3" name="message" placeholder="Menssagem*" required></textarea>
-<div class="g-recaptcha" data-sitekey="{{site.recaptcha_key}}"></div>
+<!-- <div class="g-recaptcha" data-sitekey="{{site.recaptcha_key}}"></div> -->
 <br />
 <input class="btn btn-dark" type="submit" value="Send">
 </form>
