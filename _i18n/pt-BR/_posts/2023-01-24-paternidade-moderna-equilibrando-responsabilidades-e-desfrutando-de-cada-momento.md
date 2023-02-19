@@ -1,15 +1,15 @@
 ---
+layout: post
 title: 'Paternidade moderna: equilibrando responsabilidades e desfrutando de cada
   momento'
-layout: post
+comments: true
 author: rk
-image: assets/images/image12.webp
+date: 2023-01-24 13:15pm
 categories:
 - Paternidade
 - Educar
-tags: []
+image: assets/images/image12.webp
 imageshadow: true
-comments: true
 toc: true
 ---
 

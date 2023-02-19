@@ -1,8 +1,8 @@
 ---
 layout: post
-author: rk
+title: "O pensamento de um pai sobre apoiar sua esposa e filho no pós-parto do hospital"
 comments: true
-title: O pensamento de um pai sobre apoiar sua esposa e filho no pós-parto do hospital
+author: rk
 date: 2022-12-01 10:00am
 categories:
   - Paternidade

@@ -1,9 +1,9 @@
 ---
 layout: post
+title: "Aprendendo com a lição de casa: Como tornar a tarefa mais eficaz e prazerosa"
 comments: true
 author: rk
 date: 2023-01-18 13:08pm
-title: "Aprendendo com a lição de casa: Como tornar a tarefa mais eficaz e prazerosa"
 categories:
 - Paternidade
 - Filhos

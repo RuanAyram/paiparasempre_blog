@@ -1,7 +1,11 @@
 ---
-title: Produtos
+title: pages.products
 layout: page
+
+namespace: products
+
 permalink: "/produtos"
+permalink_en: "/products"
 comments: false
 ---
 

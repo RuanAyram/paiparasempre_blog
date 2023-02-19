@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Equilibrando trabalho e vida familiar como pai"
 comments: true
 author: rk
-title: Equilibrando trabalho e vida familiar como pai
 date: 2023-01-15 10:30am
 categories:
   - Paternidade

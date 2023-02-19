@@ -1,7 +1,7 @@
 # Site
 # name: "Pai para sempre"
 title: "Pai para sempre"
-description: "Ser pai não é uma tarefa fácil, mas vale a pena fazê-lo com todo o seu coração e alma."
+# description: "Ser pai não é uma tarefa fácil, mas vale a pena fazê-lo com todo o seu coração e alma."
 logo: 'assets/images/logo_pai_2.png'
 favicon: 'assets/images/logo_pai_2.png'
 baseurl: ""
@@ -54,7 +54,7 @@ authors:
     email: contato.paiparasempre@gmail.com
     web:
     twitter:
-    description: "Autor do Pai para sempre. Ser pai é uma das coisas mais desafiadoras e gratificantes que você fará na vida. É uma jornada cheia de alegria, risos e amor. É uma jornada que o tornará mais forte, mais sábio e mais compassivo."
+    # description: "Autor do Pai para sempre. Ser pai é uma das coisas mais desafiadoras e gratificantes que você fará na vida. É uma jornada cheia de alegria, risos e amor. É uma jornada que o tornará mais forte, mais sábio e mais compassivo."
 
 # Plugins
 plugins:

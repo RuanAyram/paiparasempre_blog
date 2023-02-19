@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Educando filhos no mundo de hoje"
 comments: true
 author: rk
-title: Educando filhos no mundo de hoje
 date: 2023-01-02 10:00am
 categories:
   - Educar

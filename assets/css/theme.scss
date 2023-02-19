@@ -627,6 +627,14 @@ body.active-side {
     color: var(--red)
 }
 
+.i18n {
+    position: fixed;
+    z-index: 1026;
+    top: 60px;
+    left: 30px;
+    list-style: none;
+}
+
 //responsive tweaks
 @media (min-width: 768px) {
     .container, .container-sm, .container-md, .container-lg {
@@ -727,6 +735,13 @@ body.active-side {
         h2 {
             font-size: 1.4rem;
         }
+    }
+    .i18n {
+        position: absolute;
+        z-index: 0;
+        right: 75%;
+        left: unset;
+        top: 5%;
     }
 }
 @media (max-width: 480px) {
