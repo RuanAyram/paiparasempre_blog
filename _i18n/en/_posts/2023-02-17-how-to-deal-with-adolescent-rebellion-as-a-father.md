@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Deal with Adolescent Rebellion as a Father
+title: "How to Deal with Adolescent Rebellion as a Father"
 comments: true
 author: rk
 date: 2023-02-17 23:49 -0300

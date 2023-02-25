@@ -5,9 +5,9 @@ comments: true
 author: rk
 date: 2023-02-13 22:42 -0300
 categories:
-- Fatherhood
-- Products
-- Diapers
+  - Fatherhood
+  - Products
+  - Diapers
 image: assets/images/image13.webp
 imageshadow: true
 toc: true

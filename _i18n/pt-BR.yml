@@ -5,6 +5,11 @@ site:
   lang: pt-BR
   made_with: Feito com
   comments: 'Não se esqueça de deixar um comentário logo abaixo'
+  written_by: 'Escrito por'
+  table_of_contents: 'Sumário'
+  load: 'Carregar'
+  plural_comment: 'Comentários'
+  relateds: 'Posts relacionados'
 pages:
   contact: Contato
   category: Categorias

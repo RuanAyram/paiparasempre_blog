@@ -7,6 +7,7 @@ namespace: authors
 permalink: /autores
 permalink_en: /authors
 redirect: /authors
+redirect_en: /en/authors
 comments: false
 ---
 <div class="list-authors mt-5">
@@ -39,7 +40,11 @@ comments: false
             </div>
             <div class="col-md-9">
                 <h3>
-                    <a href="{{ page.redirect }}/{{ author[1].display_name | downcase }}">
+                    {% assign href = page.redirect %}
+                    {% if site.lang == 'en' %}
+                        {% assign href = page.redirect_en %}
+                    {% endif %}
+                    <a href="{{ href }}/{{ author[1].display_name | downcase }}">
                     {{ author[1].display_name }}
                     </a>
                 </h3>

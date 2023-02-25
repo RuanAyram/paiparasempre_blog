@@ -21,7 +21,7 @@ post_class: post-template
             {% endif %}
         </div>
         <div class="p-2">
-        Escrito por {{ author.display_name }} em
+        {% t site.written_by %} {{ author.display_name }} -
         <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: '%d &middot; %m &middot; %Y' }}</time></span>
         {% if page.last_modified_at %}
         (Atualizado: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
