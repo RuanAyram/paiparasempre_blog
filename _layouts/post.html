@@ -7,7 +7,7 @@ post_class: post-template
 
 <div class="entry-header">
     <!-- Post Title -->
-    <h1 class="posttitle">{% t page.title %}</h1>
+    <h1 class="posttitle">{{ page.title }}</h1>
     <!-- Author & Date  Box -->
     {% assign author = site.authors[page.author] %}
     {% if page.author %}
