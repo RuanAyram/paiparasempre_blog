@@ -1,0 +1,30 @@
+site:
+  name: 'Pai para sempre'
+  description: 'Ser pai não é uma tarefa fácil, mas vale a pena fazê-lo com todo o seu coração e alma.'
+  keywords: Paternidade
+  lang: pt-BR
+  made_with: Feito com
+  comments: 'Não se esqueça de deixar um comentário logo abaixo'
+  written_by: 'Escrito por'
+  table_of_contents: 'Sumário'
+  load: 'Carregar'
+  plural_comment: 'Comentários'
+  relateds: 'Posts relacionados'
+  change_lang: 'Change language'
+pages:
+  contact: Contato
+  category: Categorias
+  authors: Autores
+  products: Produtos
+menu:
+  home: Home
+  authors: Autores
+  contact: Contato
+  products: Produtos
+search:
+  placeholder: Escreva & enter
+contact:
+  start_text: 'Por favor envie sua mensagem para'
+  finish_text: 'Nós responderemos o mais rápido possível!'
+author:
+  description: 'Autor do Pai para sempre. Ser pai é uma das coisas mais desafiadoras e gratificantes que você fará na vida. É uma jornada cheia de alegria, risos e amor. É uma jornada que o tornará mais forte, mais sábio e mais compassivo.'

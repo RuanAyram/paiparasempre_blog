@@ -1,9 +1,9 @@
 ---
 layout: post
+title: "Por que investir em atividades de lazer e esportes com seus filhos é
+  fundamental"
 comments: true
 author: rk
-title: Por que investir em atividades de lazer e esportes com seus filhos é
-  fundamental
 date: 2023-01-15 01:47am
 categories:
   - Paternidade

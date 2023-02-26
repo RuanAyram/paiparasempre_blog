@@ -52,6 +52,8 @@
 .navbar-brand {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
   margin-right: $navbar-padding-x;

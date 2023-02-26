@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="icon" href="{{ site.baseurl }}/assets/images/logo_pai_2.png">
 
-    <title>{{ page.title }} | {{site.name}}</title>
+    <title>{{ page.title }} | {% t site.name %}</title>
 
     {% seo %}
     
@@ -50,10 +50,10 @@
       <div id="blackover-nav" class="blackover"></div>
       <nav id="menu">
         <ul>
-          <h3><u>Pai para sempre</u></h3>
-          <li><a href="{{ site.baseurl }}/">Home</a></li>
-          <li><a href="{{ site.baseurl }}/autores">Autores</a></li>
-          <li><a href="{{ site.baseurl }}/contato">Contato</a></li>
+          <h3><u>{% t site.name %}</u></h3>
+          <li><a href="{{ site.baseurl }}/">{% t menu.home %}</a></li>
+          <li><a href="{% tl authors %}">{% t menu.authors %}</a></li>
+          <li><a href="{% tl contact %}">{% t menu.contact %}</a></li>
           <!-- <li><a href="{{ site.baseurl }}/produtos">Produtos</a></li> -->
         </ul>
       </nav>
@@ -69,16 +69,29 @@
       <div class="container">
     <!-- Site Logo/Name
     ================================================== -->
-   
-        <a class="navbar-brand text-black" href="{{ site.baseurl }}/">
-          <!-- <h2><u>Pai para sempre</u></h2> -->
-          <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-        </a>
+
+        <div class="navbar-brand text-black">
+          <div class="imagem1">
+            <a href="{{ site.baseurl }}/" >
+              <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{% t site.name %}">
+            </a>
+          </div>
+          <div class="corner1" title="{% t site.change_lang %}">
+            <div class="lang">
+              {% if post.lang == "en" or page.lang  == "en" or site.lang == "en" or post.tags contains "english" %}
+                <li><a href="{{ site.url }}"> 🇧🇷 </a></li>
+              {% else %}
+                <li><a href="{{ site.baseurl_root }}/en"> 🇬🇧 </a></li>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
     <!-- Site Tag
     ================================================== -->
         {% if page.url == '/' %}
           <p class="sitetag">
-            {{ site.description }}
+            {% t site.description %}
           </p>
         {% endif %}
 
@@ -118,10 +131,10 @@
           <div class="container">
               <div class="row">
                   <div class="col-md-4 col-sm-12 text-center text-lg-left">
-                    © 2022 - {{ site.time | date: "%Y" }} {{ site.name }}
+                    © 2022 - {{ site.time | date: "%Y" }} {% t site.name %}
                   </div>
                   <div class="col-md-4 col-sm-12 text-center text-lg-center">
-                    Feito com <i class="fas fa-heart"></i>
+                    {% t site.made_with %} <i class="fas fa-heart"></i>
                   </div>
                   <div class="col-md-4 col-sm-12 text-center text-lg-right">
                     <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net

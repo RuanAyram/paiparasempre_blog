@@ -1,7 +1,7 @@
 ---
-layout: page
+# layout: page
 comments: false
-title: "Ton: a maquininha de cartão para o pequeno empreendedor"
+# title: "Ton: a maquininha de cartão para o pequeno empreendedor"
 link: https://ton.com.br/checkout/#/cart?productId=GIGATON_D195&referrer=AAB93D01-104B-48DF-BE5F-AB23838C800E&userTag=gigaton&utm_medium=invite_share&utm_source=revendendor
 plataforma: Ton
 preco:

@@ -1,8 +1,7 @@
 ---
-layout: page
+# layout: page
 comments: false
-title: 'O que é o Amazon Prime e por que vale a pena se inscrever: uma análise detalhada'
-layout: page
+# title: 'O que é o Amazon Prime e por que vale a pena se inscrever: uma análise detalhada'
 link: https://amzn.to/3GUPnce
 plataforma: Amazon
 preco:

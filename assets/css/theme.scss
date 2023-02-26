@@ -115,10 +115,35 @@ img, img:hover {
 }
 // menu
 .navbar-brand img {
-    max-height:145px;
+    max-height:150px;
     margin-bottom:0px;
     margin-top:25px;
 }
+.navbar-brand {
+    .imagem1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .corner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+}
+
 .sidebar {
     position: fixed;
     left: 0px;

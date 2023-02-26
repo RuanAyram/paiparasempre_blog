@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "A importância da paternidade na Bíblia"
 comments: true
 author: rk
-title: A importância da paternidade na Bíblia
 date: 2023-01-16 10:28am
 categories:
   - Paternidade

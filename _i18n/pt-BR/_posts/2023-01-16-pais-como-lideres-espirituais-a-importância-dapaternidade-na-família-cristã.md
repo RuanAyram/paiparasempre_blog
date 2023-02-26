@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Pais como Líderes Espirituais: a Importância da Paternidade na Família Cristã"
 comments: true
 author: rk
-title: "Pais como Líderes Espirituais: a Importância da Paternidade na Família Cristã"
 date: 2023-01-16 01:33am
 categories:
   - Pais

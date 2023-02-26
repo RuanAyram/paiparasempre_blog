@@ -1,7 +1,7 @@
 # Site
-name: "Pai para sempre"
+# name: "Pai para sempre"
 title: "Pai para sempre"
-description: "Ser pai não é uma tarefa fácil, mas vale a pena fazê-lo com todo o seu coração e alma."
+# description: "Ser pai não é uma tarefa fácil, mas vale a pena fazê-lo com todo o seu coração e alma."
 logo: 'assets/images/logo_pai_2.png'
 favicon: 'assets/images/logo_pai_2.png'
 baseurl: ""
@@ -54,7 +54,7 @@ authors:
     email: contato.paiparasempre@gmail.com
     web:
     twitter:
-    description: "Autor do Pai para sempre. Ser pai é uma das coisas mais desafiadoras e gratificantes que você fará na vida. É uma jornada cheia de alegria, risos e amor. É uma jornada que o tornará mais forte, mais sábio e mais compassivo."
+    # description: "Autor do Pai para sempre. Ser pai é uma das coisas mais desafiadoras e gratificantes que você fará na vida. É uma jornada cheia de alegria, risos e amor. É uma jornada que o tornará mais forte, mais sábio e mais compassivo."
 
 # Plugins
 plugins:
@@ -65,6 +65,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-multiple-languages-plugin
     
 # Archives
 jekyll-archives:
@@ -88,8 +89,8 @@ jekyll_compose:
       layout: "post"
       author: "rk"
       comments: true
-      image:
       categories:
+      image:
       imageshadow: true
     
 # Pagination 
@@ -106,6 +107,12 @@ kramdown:
    syntax_highlighter_opts:
       disable : true
 
+# Multiple Languages
+languages: ["pt-BR", "en"]
+exclude_from_localizations: ["javascript", "images", "css"]
+languageNames:
+  en: English
+  pt_BR: Português
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "enabled"

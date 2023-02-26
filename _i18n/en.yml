@@ -1,0 +1,30 @@
+site:
+  name: 'Father forever'
+  description: 'Being a father is not an easy task, but it is worth doing it with all your heart and soul.'
+  keywords: Paternity
+  lang: en
+  made_with: Made with
+  comments: "Don't forget to leave a comment below"
+  written_by: 'Written by'
+  table_of_contents: 'Table of Contents'
+  load: 'Load'
+  plural_comment: 'Comments'
+  relateds: 'Explore more like this'
+  change_lang: 'Mudar linguagem'
+pages:
+  contact: Contact
+  category: Categories
+  authors: Authors
+  products: Products
+menu:
+  home: Home
+  authors: Authors
+  contact: Contact
+  products: Products
+search:
+  placeholder: Type & enter
+contact:
+  start_text: 'Please send your message to'
+  finish_text: 'We will reply as soon as possible!'
+author:
+  description: "Author of Father Forever. Being a father is one of the most challenging and rewarding things you will do in life. It's a journey full of joy, laughter, and love. It's a journey that will make you stronger, wiser, and more compassionate."

@@ -22,6 +22,7 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'jekyll-figure'
     gem 'jekyll-compose'
+    gem 'jekyll-multiple-languages-plugin', '1.7.0'
     gem 'bootstrap', '~> 4.4.1'
     gem 'kramdown'
     gem 'rouge'

@@ -1,9 +1,9 @@
 ---
 layout: post
+title: "A Importância da Oração entre Pais e Filhos"
 comments: true
 author: rk
 date: 2023-01-18 10:00am
-title: A Importância da Oração entre Pais e Filhos
 categories:
 - Paternidade
 - Filhos

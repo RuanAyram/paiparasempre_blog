@@ -30,10 +30,19 @@ var idx = lunr(function () {
         this.add(doc)
     }, this)
 });
+
+var pathName = window.location.pathname;
+if (pathName.indexOf('/en/') == 0){
+    var text = 'Search results for ';
+    var zeroResults = 'Sorry, no results found. Close and try a different term!'
+} else {
+    var text = 'Resultado(s) da pesquisa para '
+    var zeroResults = 'Desculpe, nenhum resultado encontrado. Fechar & tente um termo diferente!'
+}
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
-        document.getElementById('lunrsearchresults').innerHTML = "<p>Resultado(s) da pesquisa para '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        document.getElementById('lunrsearchresults').innerHTML = "<p>"+ text + term + "</p>" + document.getElementById('lunrsearchresults').innerHTML;
         //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
@@ -60,7 +69,7 @@ function lunr_search(term) {
     
     document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Fechar"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Fechar</button></div></div> </div></div>';
     if(term) {
-        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Resultado(s) da pesquisa para '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
+        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>"+ text+ term + "</h5>" + document.getElementById('modtit').innerHTML;
         //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
@@ -75,7 +84,7 @@ function lunr_search(term) {
                 document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><small><span class='body'>"+ body +"</span><span class='url'>"+ url +"</span></small></a></li>";
             }
         } else {
-            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Desculpe, nenhum resultado encontrado. Fechar & tente um termo diferente!</li>";
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>"+ zeroResults +"</li>";
         }
     }
     return false;

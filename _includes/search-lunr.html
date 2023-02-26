@@ -3,10 +3,10 @@
 <style></style>
 
 <div class="wrap-search">
-  <div class="d-flex align-items-center ml-auto">
+  <div class="d-flex align-items-center ml-auto wlg50">
     <i class="fas fa-search show-search"></i>
     <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-      <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Escreva & enter..."/>
+      <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="{% t search.placeholder %}"/>
     </form>
   </div>
 </div>
