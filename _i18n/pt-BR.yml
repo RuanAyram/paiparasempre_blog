@@ -10,6 +10,7 @@ site:
   load: 'Carregar'
   plural_comment: 'Comentários'
   relateds: 'Posts relacionados'
+  change_lang: 'Change language'
 pages:
   contact: Contato
   category: Categorias

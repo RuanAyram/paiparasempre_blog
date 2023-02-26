@@ -47,13 +47,6 @@
       <div class="nav-icon">
         <div class="hamburger-bar"></div>
       </div>
-      <div class="i18n">
-        {% if post.lang == "en" or page.lang  == "en" or site.lang == "en" or post.tags contains "english" %}
-          <li><a href="{{ site.url }}"> 🇧🇷 </a></li>
-        {% else %}
-          <li><a href="{{ site.baseurl_root }}/en"> 🇬🇧 </a></li>
-        {% endif %}
-      </div>
       <div id="blackover-nav" class="blackover"></div>
       <nav id="menu">
         <ul>
@@ -76,11 +69,24 @@
       <div class="container">
     <!-- Site Logo/Name
     ================================================== -->
-   
-        <a class="navbar-brand text-black" href="{{ site.baseurl }}/">
-          <!-- <h2><u>Pai para sempre</u></h2> -->
-          <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{% t site.name %}">
-        </a>
+
+        <div class="navbar-brand text-black">
+          <div class="imagem1">
+            <a href="{{ site.baseurl }}/" >
+              <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{% t site.name %}">
+            </a>
+          </div>
+          <div class="corner1" title="{% t site.change_lang %}">
+            <div class="lang">
+              {% if post.lang == "en" or page.lang  == "en" or site.lang == "en" or post.tags contains "english" %}
+                <li><a href="{{ site.url }}"> 🇧🇷 </a></li>
+              {% else %}
+                <li><a href="{{ site.baseurl_root }}/en"> 🇬🇧 </a></li>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
     <!-- Site Tag
     ================================================== -->
         {% if page.url == '/' %}

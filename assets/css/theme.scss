@@ -115,10 +115,35 @@ img, img:hover {
 }
 // menu
 .navbar-brand img {
-    max-height:145px;
+    max-height:150px;
     margin-bottom:0px;
     margin-top:25px;
 }
+.navbar-brand {
+    .imagem1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .corner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+}
+
 .sidebar {
     position: fixed;
     left: 0px;
@@ -627,14 +652,6 @@ body.active-side {
     color: var(--red)
 }
 
-.i18n {
-    position: fixed;
-    z-index: 1026;
-    top: 60px;
-    left: 30px;
-    list-style: none;
-}
-
 //responsive tweaks
 @media (min-width: 768px) {
     .container, .container-sm, .container-md, .container-lg {
@@ -735,13 +752,6 @@ body.active-side {
         h2 {
             font-size: 1.4rem;
         }
-    }
-    .i18n {
-        position: absolute;
-        z-index: 0;
-        right: 75%;
-        left: unset;
-        top: 5%;
     }
 }
 @media (max-width: 480px) {

@@ -10,6 +10,7 @@ site:
   load: 'Load'
   plural_comment: 'Comments'
   relateds: 'Explore more like this'
+  change_lang: 'Mudar linguagem'
 pages:
   contact: Contact
   category: Categories
