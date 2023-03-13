@@ -79,6 +79,8 @@ jekyll-archives:
 
 # Compose
 jekyll_compose:
+  # command
+  # bundle exec jekyll compose "2023 03 05 Discover III." --collection "i18n/pt-BR/_posts/"
   default_front_matter:
     drafts:
       description:
@@ -92,6 +94,21 @@ jekyll_compose:
       categories:
       image:
       imageshadow: true
+    "i18n/pt-BR/_posts/":
+      layout: "post"
+      author: "rk"
+      comments: true
+      categories:
+      image:
+      imageshadow: true
+    "i18n/en/_posts/":
+      layout: "post"
+      author: "rk"
+      comments: true
+      categories:
+      image:
+      imageshadow: true
+
     
 # Pagination 
 paginate: 6
