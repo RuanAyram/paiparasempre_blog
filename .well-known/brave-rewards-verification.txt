@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: paiparasempre.com.br
+Token: 6e7410ac6a8bd7b8c3d0f21567b5120f91ed92b7ab9dc21303dcdfe592f24100
